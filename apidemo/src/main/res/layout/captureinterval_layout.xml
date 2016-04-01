@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="captureNumber"
+            />
+        <EditText
+            android:id="@+id/edittext_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:text="2"
+            android:inputType="number"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="captureInterval"
+            />
+        <EditText
+            android:id="@+id/edittext_interval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:text="2"
+            android:inputType="number"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/button_startcapture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Capture"/>
+    <Button
+        android:id="@+id/button_stopcapture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Capture"/>
+</LinearLayout>

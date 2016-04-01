@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">helloFriendsCamera</string>
+    <string name="scanning">SCANNING</string>
+    <string name="camera_connect">CONNECT TO CAMERA</string>
+    <string name="connect">CONNECT</string>
+    <string name="disconnect">DISCONNECT</string>
+</resources>

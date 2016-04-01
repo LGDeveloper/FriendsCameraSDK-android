@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lge.helloFriendsCamera.MainActivity"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    >
+
+    <Button
+        android:id="@+id/button_connect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CONNECT"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IPAddress:" />
+
+    <EditText
+        android:id="@+id/editTextIPAddr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:text="192.168.43.1:6624"
+        />
+    <Button
+        android:id="@+id/button_takePicture"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Take Picture" />
+</LinearLayout>

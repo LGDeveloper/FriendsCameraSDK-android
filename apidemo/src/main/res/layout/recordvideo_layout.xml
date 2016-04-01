@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button android:id = "@+id/button_recordingStatus"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Recording Status"
+        android:layout_margin="40dp"/>
+
+    <Button android:id = "@+id/button_startVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Start Recording"
+        android:layout_margin="20dp" />
+
+    <Button android:id = "@+id/button_stopVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Stop Recording"
+        android:layout_margin="20dp"
+        />
+
+    <Button android:id = "@+id/button_liveSnapShot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Live Snap Shot"
+        android:layout_margin="20dp"/>
+</LinearLayout>

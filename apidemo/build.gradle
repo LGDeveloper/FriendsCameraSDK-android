@@ -30,4 +30,5 @@ dependencies {
     compile project(':FriendsLink-wifi')
     compile project(':FriendsLink-octopus')
     compile project(':FriendsLink-ble')
+    compile 'com.google.android.exoplayer:exoplayer:r1.5.7'
 }
